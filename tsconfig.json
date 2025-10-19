@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",           // where your TS files live
+    "outDir": "./dist",           // compiled JS output
+
+    /* Environment Settings */
+    "target": "ES2020",           // Node.js LTS supports ES2020 features safely
+    "module": "CommonJS",         // Express/Mongoose expect CommonJS
+    "moduleResolution": "Node",   // resolves modules like Node.js
+    "esModuleInterop": true,      // allows import express from 'express'
+    "resolveJsonModule": true,    // lets you import JSON files
+    "lib": ["ES2020"],            // standard ES libs
+    "types": ["node"],            // include Node.js type definitions
+
+    /* Other Outputs */
+    "sourceMap": true,            // helpful for debugging
+    "declaration": true,          // generates .d.ts files for libs
+    "declarationMap": true,
+
+    /* Stricter Type Checking */
+    "strict": true,               // enable strict mode
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Style Options */
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Performance / Build */
+    "skipLibCheck": true          // faster builds
+  },
+  "include": ["src"],             // only compile code in src/
+  "exclude": ["node_modules", "dist"]
+}
