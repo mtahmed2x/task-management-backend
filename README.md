@@ -51,8 +51,8 @@ This is the backend server for the Full-Stack Challenge. It's a robust Node.js a
 1.  **Clone the repository:**
 
     ```bash
-    git clone [Link to your Backend GitHub repo]
-    cd real-time-task-manager-backend
+    git clone https://github.com/mtahmed2x/task-management-backend.git
+    cd task-management-backend
     ```
 
 2.  **Install dependencies:**
